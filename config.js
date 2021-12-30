@@ -1,4 +1,4 @@
 module.exports = {
-    mongoUri: 'mongodb+srv://bonzo:bonzo@cluster0.cd6s2.mongodb.net/vue_express?retryWrites=true&w=majority',
+    mongoUri: process.env.MONGO_URI,
     PORT: process.env.PORT || 3000,
 }
